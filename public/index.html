@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>chat</title>
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <div class="chat-box" id="chatBox">
+        <div class="online" id="online"></div>
+        <div class="chat-content" id="chatContent"></div>
+        <div class="send">
+            <input id="chatInput" type="text" placeholder="发送消息">
+            <input id="send" type="button" value="发送">
+        </div>
+    </div>
+</body>
+<script src="./javascript/client.js"></script>
+
+</html>

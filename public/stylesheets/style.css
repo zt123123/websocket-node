@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.login-box,.chat-box{
+    margin: 0 auto;
+    text-align: center;
+}
+.chat-box{
+    /* display: none; */
+}
+.chat-content{
+    padding: 5px;
+    border: 1px solid #f00;
+}
